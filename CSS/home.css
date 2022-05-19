@@ -1,0 +1,26 @@
+body{
+    background-image: url('../Images/Achtergrond_kleuren.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{ 
+    min-height: 75px;
+}
+
+#footer{
+    margin: auto;
+    display: flex;
+    
+}
+
+#insta{
+    width: 3vw;
+    height: 3vw;
+    flex: 1;
+}
+
+#copyright{
+    color: white;
+    flex: 40;
+}
