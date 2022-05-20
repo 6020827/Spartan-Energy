@@ -32,6 +32,16 @@ a:hover{
     text-decoration: underline;
 }
 
+#inlog{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    border: 2px solid white;
+    border-radius: 19px;
+    padding: 7px 17px;
+    float: right;
+}
+
 footer{ 
     min-height: 75px;
 }
