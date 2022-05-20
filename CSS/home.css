@@ -4,8 +4,32 @@ body{
     background-size: cover;
 }
 
+#header{
+    display: flex;
+}
+
 #logo{
+    flex: 1;
+}
+
+#logoImage{
     width: 7vw;
+}
+
+#navbar{
+    flex: 4;
+    padding-top: 2rem;
+}
+
+.navItem{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 7rem;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 footer{ 
