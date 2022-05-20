@@ -4,6 +4,10 @@ body{
     background-size: cover;
 }
 
+#logo{
+    width: 7vw;
+}
+
 footer{ 
     min-height: 75px;
 }
