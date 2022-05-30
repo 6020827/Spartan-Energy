@@ -32,6 +32,11 @@ a:hover{
     text-decoration: underline;
 }
 
+#inlog:hover {
+    color: rgb(204, 0, 255);
+    border: 2px solid blue;
+}
+
 #inlog{
     text-decoration: none;
     color: white;
