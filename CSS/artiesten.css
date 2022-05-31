@@ -66,6 +66,25 @@ footer {
   color: white;
   flex: 40;
 }
-#hardwell img {
+
+.artiesten {
+  display: flex;
+}
+#hardwell {
   width: 20%;
+  flex: 1;
+  border: 2px solid white;
+  column-gap: 20px;
+}
+
+#dg {
+  width: 20%;
+  flex: 1;
+  border: 2px solid white;
+}
+
+#tiesto {
+  width: 20%;
+  flex: 1;
+  border: 2px solid white;
 }
