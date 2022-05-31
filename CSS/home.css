@@ -29,7 +29,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: 2rem;
-    padding-left: 7rem;
+    padding-left: 7vw;
 }
 
 a:hover{
@@ -46,7 +46,7 @@ a:hover{
     color: white;
     font-size: 2rem;
     border: 2px solid white;
-    border-radius: 19px;
+    border-radius: 30px;
     padding: 7px 17px;
     float: right;
 }
