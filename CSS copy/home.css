@@ -21,19 +21,15 @@ body{
 }
 
 #navbar{
-    display: flex;
-    flex: 2;
-}
-
-a{
-    color: white;
-
+    flex: 4;
+    padding-top: 2rem;
 }
 
 .navItem{
     text-decoration: none;
     color: white;
     font-size: 2rem;
+    padding-left: 7vw;
 }
 
 a:hover{
@@ -57,33 +53,33 @@ a:hover{
 
 .dropbtn :hover{
     text-decoration: underline;
-    /* font-size: x-large; */
+    font-size: x-large;
 }
 
 .dropbtn a{
-    /* font-size: x-large; */
+    font-size: x-large;
     padding-left: 15%;
     padding: 14px 16px;
 }
 
 .dropdown {
-    /* float: left; */
+    float: left;
     overflow: hidden;
 }
   
 .dropdown .dropbtn {
-    /* font-size: x-large; */
+    font-size: x-large;
     border: none;
     outline: none;
     color: white;
-    /* padding: 14px 16px; */
+    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     font-family: 'GFS Neohellenic', sans-serif;
-    /* font-weight: 900; */
-    /* padding-left: 90px;
-    width: 110%; */
+    font-weight: 900;
+    padding-left: 90px;
+    width: 110%;
 }
   
 .dropdown-content {
@@ -105,7 +101,7 @@ a:hover{
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(196, 35, 35);
+    background-color: #ddd;
 }
   
 .dropdown:hover .dropdown-content {
