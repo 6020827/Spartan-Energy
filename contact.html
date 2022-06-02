@@ -38,9 +38,6 @@
               <label for="email"><p>E-mail:</p></label>
               <input type="email" id="Email"  name="e-mail" placeholder="jeanne@jeannesen.nl">
           
-              <label for="datum"><p>Datum:</p></label>
-              <input type="date" id="Datum" name="Datum" placeholder="dd/mm/yyyy">
-              <br>
               <label for="Onderwerp"><p>Wat is het onderwerp:</p></label>
               <select id="onderwerp" name="Onderwerp">
                 <option value="1">Klacht</option>
@@ -48,11 +45,9 @@
                 <option value="3">Overige</option>
               </select>
 
-              <br>
               <textarea id="Review" name="Review" placeholder="Vul hier uw verhaal in..." style="height:200px"></textarea>
-              <br>
-              <input type="submit" value="Submit">
-              <div style="position:absolute; left:80px; top:40px;"></div>
+
+              <button onclick="myFunction()">Submit</button>
             </form>
           </div>
 
@@ -62,6 +57,12 @@
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>
         </footer>
-        
+
     </body>
 </html>
+
+<script>
+    function myFunction() {
+        alert("Uw reactie is verzonden");
+    }
+    </script>

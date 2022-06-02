@@ -73,6 +73,7 @@ Form{
     display: grid;
     width: 50%;
     align-content: center;
+    margin-left: 25%;
 }
 
 input[type=text], select, textarea {
@@ -82,17 +83,6 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
- }
- 
- input[type=date], select, textarea {
-    padding: 12px;
-    border: 1px solid blue;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
  }
  
  input[type=email], select, textarea {
@@ -105,7 +95,7 @@ input[type=text], select, textarea {
     resize: vertical;
  }
  
- input[type=submit] {
+ button {
     background-color: darkblue;
     color: white;
     padding: 12px 20px;
@@ -113,7 +103,10 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
  }
- input[type=submit]:hover {
+ button:hover {
     background-color: blue;
  }
  
+ label > p{
+     margin: 0%;
+ }
