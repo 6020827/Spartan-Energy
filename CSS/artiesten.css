@@ -66,6 +66,40 @@ footer {
   color: white;
   flex: 40;
 }
-#hardwell img {
-  width: 20%;
+
+#artiesten {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.foto img {
+  border: 2px solid white;
+  width: 300px;
+}
+
+.foto {
+  position: relative;
+  overflow: hidden;
+}
+
+.foto > .tekst {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+}
+
+.foto > img,
+.foto > .tekst {
+  transition: 200ms ease-in-out;
+}
+
+.foto > .tekst.fade {
+  opacity: 0;
+}
+.foto:hover > .tekst.fade {
+  opacity: 1;
 }

@@ -68,36 +68,26 @@ footer{
     flex: 40;
 }
 
-.Formulier{
+Form{
     color: white;
+    display: grid;
+    width: 50%;
+    align-content: center;
+    margin-left: 25%;
 }
 
 input[type=text], select, textarea {
-    width: 100%;
     padding: 12px;
-    border: 1px solid white;
+    border: 1px solid blue;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
- }
- 
- input[type=date], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
  }
  
  input[type=email], select, textarea {
-    width: 100%;
     padding: 12px;
-    border: 1px solid white;
+    border: 1px solid blue;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -105,18 +95,18 @@ input[type=text], select, textarea {
     resize: vertical;
  }
  
- input[type=submit] {
-    background-color: White;
+ button {
+    background-color: darkblue;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
- input[type=submit]:hover {
-    background-color: white;
  }
- .container {
-    border-radius: 5px;
-    padding: 20px;
+ button:hover {
+    background-color: blue;
+ }
+ 
+ label > p{
+     margin: 0%;
  }
