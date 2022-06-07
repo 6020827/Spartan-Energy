@@ -27,6 +27,7 @@
         </article>
 
         <div class="Formulier">
+            <img id="Blikje" src="Images/groot.png">
             <form method="POST" action="#">
           
               <label for="fname"><p>Voornaam:</p></label>
