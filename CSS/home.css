@@ -39,7 +39,7 @@ a:hover {
   border: 2px solid blue;
 }
 
-#inlog a:hover{
+#inlog a:hover {
   text-decoration: none;
   color: rgb(218, 0, 218);
 }
@@ -138,7 +138,6 @@ a:hover {
 #text2 {
   color: rgb(255, 255, 255);
   font-size: 50px;
-  position: absolute;
   left: 0;
   margin-bottom: 1vw;
 }
@@ -146,14 +145,13 @@ a:hover {
 hr.hr1 {
   color: white;
   width: 80vw;
-  position: absolute;
-  right: 0;
+  float: right;
   margin-top: 2px;
 }
 
 hr.hr2 {
   color: white;
-  width: 80vw;
-  position: absolute;
+  width: 50vw;
+  padding-right: 3rem;
   margin-top: 2px;
 }

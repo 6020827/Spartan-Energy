@@ -39,7 +39,7 @@ a:hover {
   border: 2px solid blue;
 }
 
-#inlog a:hover{
+#inlog a:hover {
   text-decoration: none;
   color: rgb(218, 0, 218);
 }
@@ -128,39 +128,30 @@ a:hover {
   flex: 40;
 }
 
-#artiesten {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin-top: 10vh;
-}
-.foto img {
-  border: 2px solid white;
-  width: 300px;
+#text1 {
+  color: white;
+  font-size: 50px;
+  margin-left: 15vw;
+  margin-bottom: 1vw;
 }
 
-.foto {
-  position: relative;
-  overflow: hidden;
+#text2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  left: 0;
+  margin-bottom: 1vw;
 }
 
-.foto > .tekst {
-  position: absolute;
-  inset: 0;
-  font-size: 2rem;
-  background: rgba(255, 255, 255, 0.4);
-  display: flex;
-  justify-content: center;
+hr.hr1 {
+  color: white;
+  width: 80vw;
+  float: right;
+  margin-top: 2px;
 }
 
-.foto > img,
-.foto > .tekst {
-  transition: 200ms ease-in-out;
-}
-
-.foto > .tekst.fade {
-  opacity: 0;
-}
-.foto:hover > .tekst.fade {
-  opacity: 1;
+hr.hr2 {
+  color: white;
+  width: 100vw;
+  padding-right: 3rem;
+  margin-top: 2px;
 }
