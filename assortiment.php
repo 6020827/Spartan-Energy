@@ -16,20 +16,36 @@
             <article id="logo">
                 <a href="home.html"><img id="logoImage" src="Images/Logo2.png"></a>
             </article>
-            <article id="navbar">
-                <nav id="nav">
-                        <a class="navItem" href="home.html">Home</a>
-                        <a class="navItem" href="assortiment.html">Assortiment</a>
-                        <a class="navItem" href="evenementen.html">Evenementen</a>
-                        <a class="navItem" href="contact.html">Contact</a>
-                        <a id="inlog" href="inloggen.html">Inloggen</a>
-                </nav>
-            </article>
+            <section id="navbar">
+              <a href="home.php">Home</a>
+              <div class="dropdown">
+                  <button class="dropbtn">Assortiment</button>
+                  <div class="dropdown-content">
+                    <a href="assortiment.php">Assortiment</a>
+                    <a href="aanbiedingen.php">Aanbiedingen</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Evenementen</button>
+                  <div class="dropdown-content">
+                    <a href="evenementen.php">Evenementen</a>
+                    <a href="Artiesten.php">Artiesten</a>
+                  </div>
+                </div>
+              <a href="contact.php">Contact</a>
+              <article id="inlog">
+                <a href="inloggen.php">Inloggen</a>
+              </article>
+          </section>
         </article>
-        <h1 id="text1">Ons product</h1><hr>
+        <article>
+          <section>
+        <h1>p</h1>
+        <h1 id="text1">Ons product</h1><hr class="hr1"> 
         <h3>Titel</h3>
-
-
+        <h1 id="text2">Komende events</h1><hr class="hr2">
+</section>
+        </article>
         <footer id="footer">
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>

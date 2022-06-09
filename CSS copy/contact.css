@@ -1,0 +1,122 @@
+body{
+    background-image: url('../Images/Achtergrond_kleuren.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    display: flex;
+}
+
+#logo{
+    flex: 1;
+}
+
+#logoImage{
+    width: 7vw;
+}
+
+#navbar{
+    flex: 4;
+    padding-top: 2rem;
+}
+
+.navItem{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 7rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#inlog:hover {
+    color: rgb(204, 0, 255);
+    border: 2px solid blue;
+}
+
+#inlog{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    border: 2px solid white;
+    border-radius: 19px;
+    padding: 7px 17px;
+    float: right;
+}
+
+footer{ 
+    min-height: 75px;
+}
+
+#footer{
+    margin: auto;
+    display: flex;
+    
+}
+
+#insta{
+    width: 3vw;
+    height: 3vw;
+    flex: 1;
+}
+
+#copyright{
+    color: white;
+    flex: 40;
+}
+
+.Formulier{
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+ 
+ input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+ 
+ input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+ 
+ input[type=submit] {
+    background-color: White;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ input[type=submit]:hover {
+    background-color: white;
+ }
+ .container {
+    border-radius: 5px;
+    padding: 20px;
+ }
