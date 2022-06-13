@@ -2,6 +2,7 @@ body{
     background-image: url('../Images/Achtergrond_kleuren.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 2rem;
 }
 
 #header{
@@ -48,13 +49,13 @@ a:hover{
 }
 
 footer{ 
-    min-height: 75px;
+    max-height: 75px;
+    padding-top: 20px;
 }
 
 #footer{
     margin: auto;
     display: flex;
-    
 }
 
 #insta{
@@ -74,6 +75,12 @@ Form{
     width: 50%;
     align-content: center;
     margin-left: 25%;
+    position: absolute;
+    left: 11%;
+}
+
+.Formulier{
+    display: flex;
 }
 
 input[type=text], select, textarea {
@@ -115,6 +122,6 @@ input[type=text], select, textarea {
      width: 15%;
      height: 70%;
      position: absolute;
-     top: 150px;
-     left: 80px;
+     top: 20%;
+     left: 10%;
  }
