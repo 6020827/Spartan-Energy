@@ -14,7 +14,7 @@
     <body>
         <article id="header">
             <article id="logo">
-                <a href="home.html"><img id="logoImage" src="Images/Logo2.png"></a>
+                <a href="home.php"><img id="logoImage" src="Images/Logo2.png"></a>
             </article>
             <section id="navbar">
               <a href="home.php">Home</a>
@@ -39,9 +39,10 @@
           </section>
         </article>
 
+        <article id="Formulier">
         <div class="Formulier">
             <img id="Blikje" src="Images/groot.png">
-            <form method="POST" action="#">
+            <form method="POST" action="mailto:6021946@mborijnland.nl">
           
               <label for="fname"><p>Voornaam:</p></label>
               <input type="text" id="fname" name="firstname" placeholder="Voornaam">
@@ -65,13 +66,12 @@
             </form>
           </div>
 
+        </article>
 
-
-        <footer id="footer">
-            <p id="copyright">©Copyright</p>
-            <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>
-        </footer>
-
+          <footer id="footer">
+            <p id="copyright">©Copyright</p> <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></a>
+        </footer> 
+        
     </body>
 </html>
 
