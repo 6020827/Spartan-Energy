@@ -128,25 +128,32 @@ a:hover {
   flex: 40;
 }
 
-#text1 {
+#titel1 {
   color: white;
   font-size: 50px;
   margin-left: 15vw;
   margin-bottom: 1vw;
 }
 
-#row1{
+#row1 {
   display: flex;
+  column-gap: 5rem;
 }
 
-#i1{
+#img1 {
+  flex: 1;
+}
+
+#i1 {
   width: 10rem;
   margin-top: 5rem;
 }
 
+#text1 {
+  flex: 1;
+}
 
-
-#text2 {
+#titel2 {
   color: rgb(255, 255, 255);
   font-size: 50px;
   margin-bottom: 1vw;
