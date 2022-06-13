@@ -39,7 +39,7 @@ text-decoration: underline;
 border: 2px solid blue;
 }
 
-#inlog a:hover{
+#inlog a:hover {
 text-decoration: none;
 color: rgb(218, 0, 218);
 }
@@ -108,24 +108,22 @@ display: block;
 }
 
 #footer {
-min-height: 75px;
-padding-top: 20px;
-}
-
-#footer {
-margin: auto;
-display: flex;
+    margin: auto;
+    display: flex;
+    min-height: 75px;
+    padding-top: 20px;
+    height: 30px;
 }
 
 #insta {
-width: 3vw;
-height: 3vw;
-flex: 1;
+    width: 3vw;
+    height: 3vw;
+    flex: 1;
 }
 
 #copyright {
-color: white;
-flex: 40;
+    color: white;
+    flex: 40;
 }
 
 Form{

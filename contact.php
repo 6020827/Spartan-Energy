@@ -9,9 +9,10 @@
         <meta name="author" content="Tim van Duijvenvoorde, Bjorn Borst, Dylan Hillebrand, Chloë Woldberg">
         <title>Spartan</title>
         <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+        <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     </head>
     <body>
-    <article id="header">
+        <article id="header">
             <article id="logo">
                 <a href="home.php"><img id="logoImage" src="Images/Logo2.png"></a>
             </article>
