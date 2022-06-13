@@ -41,15 +41,15 @@
         <section id="artiesten">
             <article class="foto">
                 <img id="hardwell" src="../Spartan-Energy/Images/hardwell.png">
-                <div class="tekst fade">DJ fenomeen Hardwell's komende evenement is SpartanFest <br> </div>
+                <div class="tekst fade">DJ Hardwell, 1 van de GOATS in the dj wereld, zal ons SpartanFest afkicken zodat we een super weekend zullen krijgen. <br> </div>
             </article>
             <article class="foto">
                 <img id="dg" src="../Spartan-Energy/Images/deadly guns.png">
-                <div class="tekst fade">Ik heb tekst nodig help</div>
+                <div class="tekst fade"> Get ready to rage! samen met Deadly gunz word Spartan Energy Motocross een evenement waar je bij moet zijn.</div>
             </article>
             <article class="foto">
                 <img id="tiesto" src="../Spartan-Energy/Images/tiesto.png">
-                <div class="tekst fade">Ik heb tekst nodig help</div>
+                <div class="tekst fade">Tiesto zal ClubSpartan nieuw leven inbrengen met goede vibes en tunes waarvan je nooit meer zonder kan.</div>
                 <article class="foto">
             </article>
         </section>

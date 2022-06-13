@@ -39,7 +39,7 @@ a:hover {
   border: 2px solid blue;
 }
 
-#inlog a:hover{
+#inlog a:hover {
   text-decoration: none;
   color: rgb(218, 0, 218);
 }
@@ -148,7 +148,7 @@ a:hover {
   position: absolute;
   inset: 0;
   font-size: 2rem;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(197, 196, 196, 0.4);
   display: flex;
   justify-content: center;
 }
