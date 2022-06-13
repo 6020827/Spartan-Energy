@@ -8,10 +8,11 @@
         <meta name="keywords" content="">
         <meta name="author" content="Tim van Duijvenvoorde, Bjorn Borst, Dylan Hillebrand, Chloë Woldberg">
         <title>Spartan</title>
-        <link rel="stylesheet" type="text/css" href="CSS/artiesten.css">
+        <link rel="stylesheet" type="text/css" href="CSS/some.css">
+        <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     </head>
     <body>
-    <article id="header">
+        <article id="header">
             <article id="logo">
                 <a href="home.html"><img id="logoImage" src="Images/Logo2.png"></a>
             </article>
@@ -37,22 +38,14 @@
               </article>
           </section>
         </article>
-        <section id="artiesten">
-            <article class="foto">
-                <img id="hardwell" src="../Spartan-Energy/Images/hardwell.png">
-                <div class="tekst fade">DJ fenomeen Hardwell's komende evenement is SpartanFest <br> </div>
-            </article>
-            <article class="foto">
-                <img id="dg" src="../Spartan-Energy/Images/deadly guns.png">
-                <div class="tekst fade">Ik heb tekst nodig help</div>
-            </article>
-            <article class="foto">
-                <img id="tiesto" src="../Spartan-Energy/Images/tiesto.png">
-                <div class="tekst fade">Ik heb tekst nodig help</div>
-                <article class="foto">
-            </article>
-        </section>
-
+        <article>
+          <section>
+        <h1>p</h1>
+        <h1 id="text1">Ons product</h1><hr class="hr1"> 
+        <h3>Titel</h3>
+        <h1 id="text2">Komende events</h1><hr class="hr2">
+</section>
+        </article>
         <footer id="footer">
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>
