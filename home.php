@@ -39,12 +39,18 @@
           </section>
         </article>
         <article>
-          <section>
-        <h1>p</h1>
-        <h1 id="text1">Ons product</h1><hr class="hr1"> 
-        <h3>Titel</h3>
-        <h1 id="text2">Komende events</h1><hr class="hr2">
-</section>
+        <section>
+          <h1 id="titel1">Ons product</h1><hr class="hr1">
+          <section id="row1">
+            <article id="img1">
+              <img id="i1" src="Images/klein1.png">
+            </article>
+            <article id="text1">
+              <h3 id="t1">Titel</h3>
+            </article>
+          </section>
+          <h1 id="titel2">Komende events</h1><hr class="hr2">
+        </section>
         </article>
         <footer id="footer">
             <p id="copyright">©Copyright</p>

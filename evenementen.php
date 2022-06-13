@@ -8,7 +8,7 @@
         <meta name="keywords" content="">
         <meta name="author" content="Tim van Duijvenvoorde, Bjorn Borst, Dylan Hillebrand, Chloë Woldberg">
         <title>Spartan</title>
-        <link rel="stylesheet" type="text/css" href="CSS/home.css">
+        <link rel="stylesheet" type="text/css" href="CSS/evenementen.css">
         <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     </head>
     <body>
@@ -38,14 +38,23 @@
               </article>
           </section>
         </article>
-        <article>
-          <section>
-        <h1>p</h1>
-        <h1 id="text1">Ons product</h1><hr class="hr1"> 
-        <h3>Titel</h3>
-        <h1 id="text2">Komende events</h1><hr class="hr2">
-</section>
-        </article>
+
+        <section id="evenementen">
+            <article class="foto">
+                <img id="SpartanFest" src="Images/Evenement1.png">
+                <div class="tekst fade">SpartanFest: Samenkomen op een mooie zomerdag, genieten van de Tunes en het samenzijn. <br> </div>
+            </article>
+            <article class="foto">
+                <img id="MotoCross" src="Images/Evenement3.png">
+                <div class="tekst fade"> Get ready to rage! samen met Deadly gunz word Spartan Energy Motocross een evenement waar je bij moet zijn.</div>
+            </article>
+            <article class="foto">
+                <img id="ClubSpartan" src="Images/Evenement2.png">
+                <div class="tekst fade">Tiesto zal ClubSpartan nieuw leven inbrengen met goede vibes en tunes waarvan je nooit meer zonder kan.</div>
+                <article class="foto">
+            </article>
+        </section>
+
         <footer id="footer">
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>

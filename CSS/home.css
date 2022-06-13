@@ -128,18 +128,36 @@ a:hover {
   flex: 40;
 }
 
-#text1 {
+#titel1 {
   color: white;
   font-size: 50px;
   margin-left: 15vw;
   margin-bottom: 1vw;
 }
 
-#text2 {
+#row1 {
+  display: flex;
+  column-gap: 5rem;
+}
+
+#img1 {
+  flex: 1;
+}
+
+#i1 {
+  width: 10rem;
+  margin-top: 5rem;
+}
+
+#text1 {
+  flex: 1;
+}
+
+#titel2 {
   color: rgb(255, 255, 255);
   font-size: 50px;
-  left: 0;
   margin-bottom: 1vw;
+  margin-left: 60rem;
 }
 
 hr.hr1 {
@@ -151,7 +169,6 @@ hr.hr1 {
 
 hr.hr2 {
   color: white;
-  width: 50vw;
-  padding-right: 3rem;
+  margin-right: 20rem;
   margin-top: 2px;
 }
