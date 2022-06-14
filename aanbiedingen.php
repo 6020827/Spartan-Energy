@@ -40,10 +40,30 @@
         </article>
         <article>
           <section>
-        <h1>p</h1>
-        <h1 id="text1">Ons product</h1><hr class="hr1"> 
-        <h3>Titel</h3>
-        <h1 id="text2">Komende events</h1><hr class="hr2">
+
+
+<section id="Aanbiedingen">
+          <article class="foto">
+              <img id="smaak1" src="Images/groot.png">
+              <div class="tekst fade">DJ fenomeen Hardwell's komende evenement is SpartanFest <br> </div>
+          </article>
+          <article class="foto">
+              <img id="smaak2" src="Images/groot.png">
+              <div class="tekst fade">Ik heb tekst nodig help</div>
+          </article>
+          <article class="foto">
+              <img id="smaak3" src="Images/groot.png">
+              <div class="tekst fade">Ik heb tekst nodig help</div>
+          <article class="foto">
+          </article>
+</section>
+
+
+
+
+
+
+
 </section>
         </article>
         <footer id="footer">
