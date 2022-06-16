@@ -42,15 +42,17 @@
         <section id="evenementen">
             <article class="foto">
                 <img id="SpartanFest" src="Images/Evenement1.png">
-                <div class="tekst fade">SpartanFest: Samenkomen op een mooie zomerdag, genieten van de Tunes en het samenzijn. <br> </div>
+                <div class="tekst fade">SpartanFest: Samenkomen op de mooie zomerdag van 14 Juni, genieten van de Tunes en het samenzijn.</div>
             </article>
+
             <article class="foto">
                 <img id="MotoCross" src="Images/Evenement3.png">
-                <div class="tekst fade"> Get ready to rage! samen met Deadly gunz word Spartan Energy Motocross een evenement waar je bij moet zijn.</div>
+                <div class="tekst fade"> Get ready to rage! 16 Juli samen met Deadly gunz word Spartan Energy Motocross een evenement waar je bij moet zijn.</div> 
             </article>
+
             <article class="foto">
                 <img id="ClubSpartan" src="Images/Evenement2.png">
-                <div class="tekst fade">Tiesto zal ClubSpartan nieuw leven inbrengen met goede vibes en tunes waarvan je nooit meer zonder kan.</div>
+                <div class="tekst fade">Tiesto zal ClubSpartan nieuw leven inbrengen op 28 Augustus met goede vibes en tunes waarvan je nooit meer zonder kan.</div>
                 <article class="foto">
             </article>
         </section>
