@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: "GFS Neohellenic", sans-serif;
 }
 
@@ -9,6 +11,7 @@ body {
 }
 
 #header {
+  margin-top: 10px;
   display: flex;
 }
 
@@ -22,6 +25,7 @@ body {
 
 #navbar {
   display: flex;
+  margin-top: 10px;
   column-gap: 9rem;
 }
 
@@ -138,6 +142,7 @@ a:hover {
 #row1 {
   display: flex;
   column-gap: 5rem;
+  margin-left: 15rem;
 }
 
 #img1 {
@@ -150,7 +155,17 @@ a:hover {
 }
 
 #text1 {
-  flex: 1;
+  flex: 5;
+  margin-top: 3rem;
+  color: white;
+}
+
+#t1 {
+  font-size: 2rem;
+}
+
+#p1 {
+  width: 50rem;
 }
 
 #titel2 {
