@@ -90,7 +90,7 @@ a:hover {
 .dropdown-content a {
   color: white;
   padding: 12px 16px;
-  text-decoration: underline;
+  text-decoration: none;
   display: block;
   font-size: 1.8rem;
 }
@@ -174,7 +174,6 @@ hr.hr2 {
   position: absolute;
   inset: 0;
   font-size: 2rem;
-  text-align: center;
   background: rgba(197, 196, 196, 0.4);
   display: flex;
   justify-content: center;
