@@ -42,7 +42,7 @@
         <article id="Formulier">
         <div class="Formulier">
             <img id="Blikje" src="Images/groot.png">
-            <form method="POST" action="mailto:6021946@mborijnland.nl">
+            
           
               <label for="fname"><p>Voornaam:</p></label>
               <input type="text" id="fname" name="firstname" placeholder="Voornaam">
