@@ -45,19 +45,13 @@
             <article id="img1">
               <img id="i1" src="Images/klein1.png">
             </article>
-            <section id="text1">
-              <h2 id="t1">Titel</h2>
-              <p id="p1">Lorem ipsum dolor sit amet. Vel corporis voluptatem qui asperiores 
-                perferendis ab dicta voluptate et earum dolores est neque voluptas. 
-                Est unde nihil est beatae quidem aut quia numquam aut explicabo 
-                tempora ut dicta blanditiis. Et voluptates eveniet id natus voluptas 
-                aut laborum quam et ipsum nobis. Ex voluptatem facilis eum ducimus 
-                dolores non voluptas cumque rem voluptates reiciendis in quis galisum.<p>
-            </section>
+            <article id="text1">
+              <h3 id="t1">Titel</h3>
+            </article>
           </section>
-          <section id="text2">
-            <h1 id="titel2">Komende events</h1><hr class="hr2">
-          </section> 
+          <h1 id="titel2">Komende events</h1><hr class="hr2">
+        </section>
+        </article>
         <footer id="footer">
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>
