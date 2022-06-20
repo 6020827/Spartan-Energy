@@ -1,185 +1,191 @@
 * {
-font-family: "GFS Neohellenic", sans-serif;
+  font-family: "GFS Neohellenic", sans-serif;
 }
 
 body {
-background-image: url("../Images/Achtergrond_kleuren.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("../Images/Achtergrond_kleuren.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #header {
-display: flex;
+  display: flex;
 }
 
 #logo {
-flex: 1;
+  flex: 1;
 }
 
 #logoImage {
-width: 7vw;
+  width: 7vw;
 }
 
 #navbar {
-display: flex;
-column-gap: 9rem;
+  display: flex;
+  column-gap: 9rem;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.8rem;
-    }
-    
-    a:hover {
-    text-decoration: underline;
-    }
-    
-    #inlog:hover {
-    border: 2px solid blue;
-    }
-    
-    #inlog a:hover {
-    text-decoration: none;
-    color: rgb(218, 0, 218);
-    }
-    
-    #inlog {
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    border: 2px solid white;
-    height: 40px;
-    border-radius: 50px;
-    padding: 7px 17px;
-    float: right;
-    }
-    
-    #inlog:hover {
-    color: rgb(168, 84, 189);
-    /* border: 2px solid blue; */
-    }
-    
-    /* Style The Dropdown Button */
-    .dropbtn {
-    color: white;
-    padding: 0;
-    font-size: 1.8rem;
-    border: none;
-    cursor: pointer;
-    background: none;
-    }
-    
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-    position: relative;
-    display: inline-block;
-    }
-    
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    z-index: 1;
-    }
-    
-    /* Links inside the dropdown */
-    .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 1.8rem;
-    }
-    
-    /* Change color of dropdown links on hover */
-    /* .dropdown-content a:hover {background-color: #f1f1f1} */
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-    display: block;
-    }
-    
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {
-        color: none;
-    }
-    
-    #footer {
-        margin: auto;
-        display: flex;
-        min-height: 75px;
-        padding-top: 20px;
-        height: 30px;
-    }
-    
-    #insta {
-        width: 3vw;
-        height: 3vw;
-        flex: 1;
-    }
-    
-    #copyright {
-        color: white;
-        flex: 40;
-    }
-    
-    Form{
-        color: white;
-        display: grid;
-        width: 50%;
-        align-content: center;
-        margin-left: 25%;
-        position: absolute;
-        left: 11%;
-    }
-    
-    .Formulier{
-        display: grid;
-    }
-    
-    input[type=text], select, textarea {
-        padding: 12px;
-        border: 1px solid blue;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-     }
-     
-     input[type=email], select, textarea {
-        padding: 12px;
-        border: 1px solid blue;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-     }
-     
-     button {
-        background-color: darkblue;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-     }
-     button:hover {
-        background-color: blue;
-     }
-     
-     label > p{
-         margin: 0%;
-     }
-    
-     #Blikje{
-         width: 15%;
-         height: 70%;
-         position: absolute;
-         top: 20%;
-         left: 10%;
-     }
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#inlog:hover {
+  border: 2px solid blue;
+}
+
+#inlog a:hover {
+  text-decoration: none;
+  color: rgb(218, 0, 218);
+}
+
+#inlog {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  border: 2px solid white;
+  height: 40px;
+  border-radius: 50px;
+  padding: 7px 17px;
+  float: right;
+}
+
+#inlog:hover {
+  color: rgb(168, 84, 189);
+  /* border: 2px solid blue; */
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 0;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.8rem;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #f1f1f1} */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: none;
+}
+
+#footer {
+  margin: auto;
+  display: flex;
+  min-height: 75px;
+  padding-top: 20px;
+  height: 30px;
+}
+
+#insta {
+  width: 3vw;
+  height: 3vw;
+  flex: 1;
+}
+
+#copyright {
+  color: white;
+  flex: 40;
+}
+
+Form {
+  color: white;
+  display: grid;
+  width: 50%;
+  align-content: center;
+  margin-left: 25%;
+  position: absolute;
+  left: 11%;
+}
+
+.Formulier {
+  display: grid;
+  z-index: 30;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="email"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: blue;
+}
+
+label > p {
+  margin: 0%;
+}
+
+#Blikje {
+  width: 15%;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: -30;
+}
