@@ -47,7 +47,7 @@
 
 <section id="Aanbiedingen">
           <article class="foto">
-              <img id="smaak1" src="Images/groot.png">
+              <img id="smaak1" src="Images/blikL_Strawberry.png">
               <div class="tekst fade"><h1>Strawberry</h1>
               <br>
               <p>
@@ -58,7 +58,7 @@
             </div>
           </article>
           <article class="foto">
-              <img id="smaak2" src="Images/groot.png">
+              <img id="smaak2" src="Images/blikL_Blueberry.png">
               <div class="tekst fade"><h1>Raspberry</h1>
               <br>
               <p>
@@ -69,7 +69,7 @@
             </div>
           </article>
           <article class="foto">
-              <img id="smaak3" src="Images/groot.png">
+              <img id="smaak3" src="Images/blikL_Coconut.png">
               <div class="tekst fade"><h1>Coconut</h1>
               <br>
               <p>
@@ -86,7 +86,7 @@
 
 <section id="Aanbiedingen">
           <article class="foto">
-              <img id="smaak1" src="Images/groot.png">
+              <img id="smaak1" src="Images/blikL_pineapple.png">
               <div class="tekst fade"><h1>Pineapple</h1>
               <br>
               <p>
@@ -97,7 +97,7 @@
             </div>
           </article>
           <article class="foto">
-              <img id="smaak2" src="Images/groot.png">
+              <img id="smaak2" src="Images/blikL_Rasberry.png">
               <div class="tekst fade"><h1>Blueberry</h1>
               <br>
               <p>
@@ -108,7 +108,7 @@
             </div>
           </article>
           <article class="foto">
-              <img id="smaak3" src="Images/groot.png">
+              <img id="smaak3" src="Images/blikL_Lime.png">
               <div class="tekst fade"><h1>Lime</h1>
               <br>
               <p>
