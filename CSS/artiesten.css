@@ -149,6 +149,7 @@ a:hover {
   background: rgba(197, 196, 196, 0.4);
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .foto > img,
