@@ -37,10 +37,24 @@
                 <a href="inloggen.php">Inloggen</a>
               </article>
           </section>
+
         </article>
-        <article>
-          <section>
-          </section>
+       
+        <article id="Formulier">
+        <div class="Formulier">
+    
+              <label for="fname"><p>Username:</p></label>
+              <input type="text" id="fname" name="firstname" placeholder="Username">
+          
+              <label for="lname"><p>Password:</p></label>
+              <input type="password" id="lname" name="lastname" placeholder="Password">
+          
+              <button onclick="myFunction()">Submit</button>
+            </form>
+          </div>
+
+        </article>
+
         </article>
         <footer id="footer">
             <p id="copyright">©Copyright</p>
