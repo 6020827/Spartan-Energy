@@ -8,7 +8,7 @@
         <meta name="keywords" content="">
         <meta name="author" content="Tim van Duijvenvoorde, Bjorn Borst, Dylan Hillebrand, Chloë Woldberg">
         <title>Spartan</title>
-        <link rel="stylesheet" type="text/css" href="CSS/home.css">
+        <link rel="stylesheet" type="text/css" href="CSS/assortiment.css">
         <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     </head>
     <body>
@@ -38,14 +38,52 @@
               </article>
           </section>
         </article>
-        <article>
-          <section>
-        <h1>p</h1>
-        <h1 id="text1">Ons product</h1><hr class="hr1"> 
-        <h3>Titel</h3>
-        <h1 id="text2">Komende events</h1><hr class="hr2">
-</section>
-        </article>
+
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/capsule_616x353.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/gta 5.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/skyrim.jpeg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); 
+}
+</script>
+
         <footer id="footer">
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>

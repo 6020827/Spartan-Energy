@@ -23,6 +23,7 @@ body {
 #navbar {
   display: flex;
   column-gap: 9rem;
+  margin-top: 10px;
 }
 
 a {
