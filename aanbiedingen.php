@@ -98,7 +98,7 @@
           </article>
           <article class="foto">
               <img id="smaak2" src="Images/groot.png">
-              <div class="tekst fade"><h1>Orange</h1>
+              <div class="tekst fade"><h1>Blueberry</h1>
               <br>
               <p>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -109,7 +109,7 @@
           </article>
           <article class="foto">
               <img id="smaak3" src="Images/groot.png">
-              <div class="tekst fade"><h1>Limon</h1>
+              <div class="tekst fade"><h1>Lime</h1>
               <br>
               <p>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.

@@ -140,6 +140,8 @@ Form {
 .Formulier {
   display: grid;
   z-index: 30;
+  width: 50%;
+  float: right;
 }
 
 input[type="text"],
