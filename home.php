@@ -34,7 +34,7 @@
                 </div>
               <a href="contact.php">Contact</a>
               <article id="inlog">
-                <a href="inloggen.php">Inloggen</a>
+                <a href="formdb.php">Inloggen</a>
               </article>
           </section>
         </article>
@@ -43,7 +43,7 @@
           <h1 id="titel1">Ons product</h1><hr class="hr1">
           <section id="row1">
             <article id="img1">
-              <img id="i1" src="Images/klein1.png">
+              <img id="i1" src="Images/blikjes_Strawberry.png">
             </article>
             <article id="text1">
               <h3 id="t1">Titel</h3>
