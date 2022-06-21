@@ -184,10 +184,10 @@ label > p {
 }
 
 #Blikje {
-  width: 15%;
+  width: 50%;
   height: 70%;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 0.5%;
   z-index: -30;
 }
