@@ -42,21 +42,31 @@
         <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="images/capsule_616x353.jpeg" style="width:100%">
+  <img src="images/blikjess_Strawberry.png" style="width:90%">
 </div>
 
 <div class="mySlides fade">
-  <img src="images/gta 5.jpeg" style="width:100%">
-</div>
+  <img src="images/blikjess_Blueberry.png" style="width:90%"></div>
 
 <div class="mySlides fade">
-  <img src="images/skyrim.jpeg" style="width:100%">
-</div>
+  <img src="images/blikjess_Coconut.png" style="width:90%"></div>
+
+<div class="mySlides fade">
+  <img src="images/blikjess_Lime.png" style="width:90%"></div>
+
+<div class="mySlides fade">
+  <img src="images/blikjess_Pineapple.png" style="width:90%"></div>
+
+<div class="mySlides fade">
+  <img src="images/blikjess_Rasberry.png" style="width:90%"></div>
 
 </div>
 <br>
 
 <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
