@@ -51,7 +51,7 @@
               <div class="tekst fade"><h1>Strawberry</h1>
               <br>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Onze Energy drank is goed voor jong en oud, onze Energy drank bevat: Cafeïne, Taurine, Vitamine B, Suiker, Water, Aarbeiextract
               </p>
               <br>
               <h3>2 voor €1,99</h3>
@@ -59,10 +59,10 @@
           </article>
           <article class="foto">
               <img id="smaak2" src="Images/blikL_Blueberry.png">
-              <div class="tekst fade"><h1>Raspberry</h1>
+              <div class="tekst fade"><h1>Blueberry</h1>
               <br>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Onze Energy drank is goed voor jong en oud, onze Energy drank bevat: Cafeïne, Taurine, Vitamine B, Suiker, Water, Bosbesextract
               </p>
               <br>
               <h3>2 voor €1,99</h3>
@@ -73,7 +73,7 @@
               <div class="tekst fade"><h1>Coconut</h1>
               <br>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Onze Energy drank is goed voor jong en oud, onze Energy drank bevat: Cafeïne, Taurine, Vitamine B, Suiker, Water, Kokosnootextract
               </p>
               <br>
               <h3>2 voor €1,99</h3>
@@ -90,7 +90,7 @@
               <div class="tekst fade"><h1>Pineapple</h1>
               <br>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Onze Energy drank is goed voor jong en oud, onze Energy drank bevat: Cafeïne, Taurine, Vitamine B, Suiker, Water, Ananasextract
               </p>
               <br>
               <h3>3 voor €2,99</h3>
@@ -98,10 +98,10 @@
           </article>
           <article class="foto">
               <img id="smaak2" src="Images/blikL_Rasberry.png">
-              <div class="tekst fade"><h1>Blueberry</h1>
+              <div class="tekst fade"><h1>Raspberry</h1>
               <br>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Onze Energy drank is goed voor jong en oud, onze Energy drank bevat: Cafeïne, Taurine, Vitamine B, Suiker, Water, Framboosextract
               </p>
               <br>
               <h3>3 voor €2,99</h3>
@@ -112,7 +112,7 @@
               <div class="tekst fade"><h1>Lime</h1>
               <br>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              Onze Energy drank is goed voor jong en oud, onze Energy drank bevat: Cafeïne, Taurine, Vitamine B, Suiker, Water, Limoenextract
               </p>
               <br>
               <h3>3 voor €2,99</h3>

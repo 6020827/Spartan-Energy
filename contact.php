@@ -41,7 +41,7 @@
 
         <article id="Formulier">
         <div class="Formulier">
-            <img id="Blikje" src="Images/groot.png">
+            <img id="Blikje" src="Images/blikjess_Strawberry.png">
             
           
               <label for="fname"><p>Voornaam:</p></label>
