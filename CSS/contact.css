@@ -134,14 +134,15 @@ Form {
   align-content: center;
   margin-left: 25%;
   position: absolute;
-  left: 11%;
+  right: 25%;
 }
 
 .Formulier {
   display: grid;
   z-index: 30;
   width: 50%;
-  float: right;
+  /* float: right; */
+  margin-left: 40vw;
 }
 
 input[type="text"],
@@ -188,6 +189,6 @@ label > p {
   height: 70%;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 15%;
   z-index: -30;
 }

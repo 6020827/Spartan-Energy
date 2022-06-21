@@ -41,7 +41,7 @@
 
         <article id="Formulier">
         <div class="Formulier">
-            <img id="Blikje" src="Images/groot.png">
+            <img id="Blikje" src="Images/blikL_Strawberry.png">
             
           
               <label for="fname"><p>Voornaam:</p></label>
@@ -62,18 +62,21 @@
 
               <textarea id="Review" name="Review" placeholder="Vul hier uw verhaal in..." style="height:200px"></textarea>
 
-              <button onclick="myFunction()">Submit</button>
+              <button type="reset" onclick="myFunction()">Submit</button>
             </form>
           </div>
 
         </article>
 
-          <footer id="footer">
-            <p id="copyright">©Copyright</p> <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></a>
-        </footer> 
+        <footer id="footer">
+            <p id="copyright">©Copyright</p> 
+            <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></a>
+        </footer>    
         
     </body>
+
 </html>
+
 
 <script>
     function myFunction() {
