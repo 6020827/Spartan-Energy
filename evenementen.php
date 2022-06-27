@@ -42,7 +42,7 @@
         <section id="evenementen">
             <article class="foto">
                 <img id="SpartanFest" src="Images/Evenement1.png">
-                <div class="tekst fade">SpartanFest: Samenkomen op een mooie zomerdag, genieten van de Tunes en het samenzijn. <br> </div>
+                <div class="tekst fade">SpartanFest samenkomen op een mooie zomerdag, genieten van de Tunes en het samenzijn. <br> </div>
             </article>
             <article class="foto">
                 <img id="MotoCross" src="Images/Evenement3.png">

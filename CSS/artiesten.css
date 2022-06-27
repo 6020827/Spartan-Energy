@@ -107,7 +107,7 @@ a:hover {
 
 #footer {
   min-height: 75px;
-  padding-top: 20px;
+  padding-top: 150px;
 }
 
 #footer {
@@ -162,4 +162,8 @@ a:hover {
 }
 .foto:hover > .tekst.fade {
   opacity: 1;
+}
+
+.tekst.fade {
+  color: white;
 }
