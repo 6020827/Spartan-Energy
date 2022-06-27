@@ -52,6 +52,11 @@
           </section>
           <h1 id="titel2">Komende events</h1><hr class="hr2">
         </section>
+        <section id="events">
+          <img id="event1" src="Images/Evenement1.png">
+          <img id="event3" src="Images/Evenement3.png"> 
+          <img id="event2" src="Images/Evenement2.png">
+        </section>
         </article>
         <footer id="footer">
             <p id="copyright">©Copyright</p>

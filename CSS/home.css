@@ -151,7 +151,6 @@ a:hover {
 }
 
 #text1 {
-  width: 200%;
   flex: 1;
   margin-top: 3rem;
   color: white;
@@ -184,4 +183,26 @@ hr.hr2 {
   color: white;
   margin-right: 20rem;
   margin-top: 2px;
+}
+
+#events {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#event1 {
+  width: 20%;
+  border: 2px solid white;
+  margin-right: 5rem;
+}
+
+#event3 {
+  width: 25%;
+  border: 2px solid white;
+}
+
+#event2 {
+  width: 20%;
+  border: 2px solid white;
+  margin-left: 5rem;
 }
