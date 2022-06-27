@@ -178,6 +178,7 @@ hr.hr2 {
   background: rgba(197, 196, 196, 0.4);
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .foto > img,
@@ -190,4 +191,8 @@ hr.hr2 {
 }
 .foto:hover > .tekst.fade {
   opacity: 1;
+}
+
+.tekst.fade {
+  color: white;
 }
