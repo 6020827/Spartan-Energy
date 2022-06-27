@@ -1,3 +1,40 @@
+<?php
+$error = "";
+if(isset($_POST["submit"])){
+
+ 
+    if (!empty($_POST["username"]) && !empty($_POST["password"])){
+        
+
+        require("dbconnect.php");
+        
+        $username = trim($_POST["username"]);
+        $password = trim($_POST["password"]);
+
+        $sql = "SELECT * FROM gebruikers WHERE username = '$username'";
+     
+        if($result = $conn->query($sql)){
+       $row = $result->fetch_row();
+            
+        if (password_verify($password, $row[2])){
+            session_start();
+            $_SESSION['ingelogd'] = true;
+            $_SESSION["username"] = $_POST["username"];
+            header("Location: home.php");
+        } else {
+            $error = "Username & password niet goed";
+            }
+    }
+    }else {
+        $error = "Username & password zijn verplicht";
+        }
+}
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,8 +54,8 @@
                 <a href="home.html"><img id="logoImage" src="Images/Logo2.png"></a>
             </article>
             <section id="navbar">
-              <a href="home.php">Home</a>
-              <div class="dropdown">
+                <a href="home.php">Home</a>
+                <div class="dropdown">
                   <button class="dropbtn">Assortiment</button>
                   <div class="dropdown-content">
                     <a href="assortiment.php">Assortiment</a>
@@ -38,20 +75,16 @@
               </article>
           </section>
         </article>
-        <article>
-        <section>
-          <h1 id="titel1">Ons product</h1><hr class="hr1">
-          <section id="row1">
-            <article id="img1">
-              <img id="i1" src="Images/blikjes_Strawberry.png">
-            </article>
-            <article id="text1">
-              <h3 id="t1">Titel</h3>
-            </article>
-          </section>
-          <h1 id="titel2">Komende events</h1><hr class="hr2">
-        </section>
-        </article>
+        <h1>Inloggen</h1>
+        <form method="POST">
+            <label>Gebruikersnaam:</label>
+            <br><input type="text" name="username">
+            <br>
+            <label>Wachtwoord:</label>
+            <br><input type="password" name="password">
+            <br>
+            <input type="submit" name="submit" value="Inloggen">
+        </form>     
         <footer id="footer">
             <p id="copyright">©Copyright</p>
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>
