@@ -46,7 +46,8 @@
               <img id="i1" src="Images/blikjes_Strawberry.png">
             </article>
             <article id="text1">
-              <h3 id="t1">Titel</h3>
+              <h1 id="t1">Welkom!</h1>
+              <p id="paragraaf">Bij Spartan energy zetten wij ons on voor de klant, zodat we een positieve indruk achterlaten op hun levenstijl. Ons team bestaat uit jonge zielen die zich elke dag inzetten om ons brand het beste brand op de market te maken. Samen strijden wij, Together we are warriors, Together we are Spartans. </p>
             </article>
           </section>
           <h1 id="titel2">Komende events</h1><hr class="hr2">
