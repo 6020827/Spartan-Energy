@@ -206,3 +206,8 @@ hr.hr2 {
   border: 2px solid white;
   margin-left: 5rem;
 }
+
+label{
+  color: white;
+  font-size: 2rem;
+}
