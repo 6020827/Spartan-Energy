@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 769px) {
 * {
 font-family: "GFS Neohellenic", sans-serif;
 }
@@ -151,6 +151,12 @@ width: 40vw;
 margin-top: 2px;
 }
 
+hr.hr2 {
+  color: white;
+  width: 40vw;
+  margin-top: 2px;
+  }
+
 #Aanbiedingen {
     display: flex;
     width: 100%;
@@ -204,11 +210,12 @@ margin-top: 2px;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     background-image: url("../Images/Achtergrond_kleuren.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 600px;
   }
 
   * {
@@ -353,6 +360,12 @@ margin-top: 2px;
   hr.hr1 {
     color: white;
     width: 40vw;
+    margin-top: 2px;
+  }
+
+  hr.hr2 {
+    color: white;
+    width: 60vw;
     margin-top: 2px;
   }
     

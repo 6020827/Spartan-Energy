@@ -82,7 +82,7 @@
 </section>
 
 <!--Komende aanbiedingen-->
-<h1 id="titel">Komende Aanbiedingen</h1><hr class="hr1">
+<h1 id="titel">Komende Aanbiedingen</h1><hr class="hr2">
 
 <section id="Aanbiedingen">
           <article class="foto">
