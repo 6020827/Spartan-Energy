@@ -35,7 +35,7 @@
           </div>
             <a href="contact.php">Contact</a>
           <article id="inlog">
-            <a href="inloggen.php">Inloggen</a>
+            <a href="ingelogd.php">Inloggen</a>
           </article>
           </section>
       </article>
