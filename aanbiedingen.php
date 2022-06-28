@@ -38,9 +38,26 @@
             <a href="ingelogd.php">Inloggen</a>
           </article>
           </section>
+
+          <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="home.php">Home</a>
+            <a href="assortiment.php">Assortiment</a>
+            <a href="aanbiedingen.php">Aanbiedingen</a>
+            <a href="evenementen.php">Evenementen</a>
+            <a href="Artiesten.php">Artiesten</a>
+            <a href="contact.php">contact</a>
+            <a href="ingelogd.php">Inloggen</a>
+          </div>
+      </div>
+          <span id="menu" style="font-size:100px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          
       </article>
           <article>
           <section>
+
+      
 
 <!--Aanbiedingen-->
 <h1 id="titel">Aanbiedingen</h1><hr class="hr1">
@@ -128,5 +145,19 @@
             <a href="https://www.instagram.com/spartanenergy_motorcross/" target="blank"><img id="insta" src="Images/Insta.png"></>
         </footer>
         
+<!--Script Hamburger Menu -->
+<script>
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/ Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+
 </body>
 </html>
