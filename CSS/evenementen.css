@@ -195,8 +195,12 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+  html{
+    background-image: url("Images/Achtergrond_kleuren.jpg");
+  }
+
   body {
-  background-image: url("../Images/Achtergrond_kleuren.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 98%;
