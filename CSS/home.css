@@ -159,8 +159,7 @@ a:hover {
 #t1 {
   font-size: 2rem;
 }
-
-#paragraaf {
+x #paragraaf {
   width: 650%;
   font-size: 1.5rem;
 }
@@ -207,7 +206,221 @@ hr.hr2 {
   margin-left: 5rem;
 }
 
-label{
+label {
   color: white;
   font-size: 2rem;
+}
+
+@media screen and (max-height: 768px) {
+  * {
+    font-family: "GFS Neohellenic", sans-serif;
+  }
+
+  body {
+    background-image: url("../Images/Achtergrond_kleuren.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #header {
+    display: flex;
+  }
+
+  #logo {
+    flex: 1;
+  }
+
+  #logoImage {
+    width: 7vw;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #inlog:hover {
+    border: 2px solid blue;
+  }
+
+  #inlog a:hover {
+    text-decoration: none;
+    color: rgb(218, 0, 218);
+  }
+
+  #inlog {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    height: 40px;
+    border-radius: 50px;
+    padding: 7px 17px;
+    float: right;
+  }
+
+  #inlog:hover {
+    color: rgb(168, 84, 189);
+    /* border: 2px solid blue; */
+  }
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+    color: white;
+    padding: 0;
+    font-size: 1.8rem;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.8rem;
+  }
+
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {background-color: #f1f1f1} */
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+  }
+
+  #footer {
+    min-height: 75px;
+    padding-top: 20px;
+  }
+
+  #footer {
+    margin: auto;
+    display: flex;
+  }
+
+  #insta {
+    width: 3vw;
+    height: 3vw;
+    flex: 1;
+  }
+
+  #copyright {
+    color: white;
+    flex: 40;
+  }
+
+  #titel1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 15vw;
+    margin-bottom: 1vw;
+  }
+
+  #row1 {
+    display: flex;
+    column-gap: 5rem;
+  }
+
+  #img1 {
+    flex: 1;
+  }
+
+  #i1 {
+    width: 10rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+
+  #text1 {
+    flex: 1;
+    margin-top: 3rem;
+    color: white;
+  }
+
+  #t1 {
+    font-size: 2rem;
+  }
+  x #paragraaf {
+    width: 650%;
+    font-size: 1.5rem;
+  }
+
+  #titel2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 1vw;
+    margin-left: 60rem;
+  }
+
+  hr.hr1 {
+    color: white;
+    width: 80vw;
+    float: right;
+    margin-top: 2px;
+  }
+
+  hr.hr2 {
+    color: white;
+    margin-right: 20rem;
+    margin-top: 2px;
+  }
+
+  #events {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  #event1 {
+    width: 20%;
+    border: 2px solid white;
+    margin-right: 5rem;
+  }
+
+  #event3 {
+    width: 25%;
+    border: 2px solid white;
+  }
+
+  #event2 {
+    width: 20%;
+    border: 2px solid white;
+    margin-left: 5rem;
+  }
+
+  label {
+    color: white;
+    font-size: 2rem;
+  }
 }
