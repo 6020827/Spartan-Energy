@@ -212,6 +212,14 @@ hr.hr2 {
   margin: 10px;
 }
 
+#menu {
+  display: none;
+}
+
+#myNav {
+  display: none;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -219,7 +227,7 @@ hr.hr2 {
     background-image: url("../Images/Achtergrond_kleuren.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 600px;
+    width: 98%;
   }
 
   * {
@@ -331,10 +339,7 @@ hr.hr2 {
   #footer {
     min-height: 75px;
     padding-top: 20px;
-  }
-    
-  #footer {
-    margin: auto;
+    margin-top: 75px;
     display: flex;
   }
     
@@ -365,13 +370,13 @@ hr.hr2 {
     
   hr.hr1 {
     color: white;
-    width: 40vw;
+    width: 30vw;
     margin-top: 2px;
   }
 
   hr.hr2 {
     color: white;
-    width: 60vw;
+    width: 45vw;
     margin-top: 2px;
   }
     
@@ -428,7 +433,8 @@ hr.hr2 {
     text-align: center;
     color: #ffffff;
     font-size: 30px;
-    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
   }
 
   /*Hamburger Menu*/

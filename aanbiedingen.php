@@ -15,7 +15,7 @@
   <!--Navigatie-->
       <article id="header">
           <article id="logo">
-            <a href="home.html"><img id="logoImage" src="Images/Logo2.png"></a>
+            <a href="home.php"><img id="logoImage" src="Images/Logo2.png"></a>
           </article>
           <section id="navbar">
             <a href="home.php">Home</a>
@@ -52,7 +52,7 @@
           </div>
       </div>
           <span id="menu" style="font-size:100px;cursor:pointer" onclick="openNav()">&#9776;</span>
-          
+
       </article>
           <article>
           <section>
