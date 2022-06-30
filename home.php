@@ -35,7 +35,7 @@
           </div>
             <a href="contact.php">Contact</a>
           <article id="inlog">
-            <a href="ingelogd.php">Inloggen</a>
+            <a href="formdb.php">Inloggen</a>
           </article>
           </section>
 
@@ -48,7 +48,7 @@
             <a href="evenementen.php">Evenementen</a>
             <a href="Artiesten.php">Artiesten</a>
             <a href="contact.php">Contact</a>
-            <a href="ingelogd.php">Inloggen</a>
+            <a href="formdb.php">Inloggen</a>
           </div>
       </div>
           <span id="menu" style="font-size:100px;cursor:pointer" onclick="openNav()">&#9776;</span>
