@@ -227,6 +227,7 @@ hr.hr2 {
     background-image: url("../Images/Achtergrond_kleuren.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
   }
 
   #header {
