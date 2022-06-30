@@ -194,12 +194,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  html {
-    background-image: url("Images/Achtergrond_kleuren.jpg");
-  }
-
   body {
-    background-image: url("Images/Achtergrond_kleuren.jpg");
+    background-image: url("../Images/Achtergrond_kleuren.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 98%;
@@ -309,7 +305,7 @@
 
   #footer {
     min-height: 75px;
-    padding-top: 20px;
+    padding-top: 300px;
     margin-top: 75px;
     display: flex;
   }
@@ -334,8 +330,8 @@
   }
 
   .foto img {
-    width: 120px;
-    height: 250px;
+    width: 200px;
+    height: 350px;
   }
 
   .foto {
@@ -352,6 +348,7 @@
     justify-content: center;
     border-radius: 5%;
     text-align: center;
+    padding-top: 5px;
   }
 
   .foto > img,

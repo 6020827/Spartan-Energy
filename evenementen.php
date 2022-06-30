@@ -46,7 +46,7 @@
             <a href="aanbiedingen.php">Aanbiedingen</a>
             <a href="evenementen.php">Evenementen</a>
             <a href="Artiesten.php">Artiesten</a>
-            <a href="contact.php">contact</a>
+            <a href="contact.php">Contact</a>
             <a href="ingelogd.php">Inloggen</a>
           </div>
       </div>
