@@ -170,7 +170,7 @@ textarea {
   resize: vertical;
 }
 
-button {
+#knop {
   background-color: darkblue;
   color: white;
   padding: 12px 20px;
@@ -442,7 +442,7 @@ label > p {
     resize: vertical;
   }
   
-  button {
+  #knop {
     background-color: darkblue;
     color: white;
     padding: 12px 20px;

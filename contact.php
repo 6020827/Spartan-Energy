@@ -61,7 +61,7 @@
         <div class="Formulier">
             <img id="Blikje" src="Images/blikL_Strawberry.png">
             
-          
+          <form method="post">
               <label for="fname"><p>Voornaam:</p></label>
               <input type="text" id="fname" name="firstname" placeholder="Voornaam">
           
@@ -80,7 +80,7 @@
 
               <textarea id="Review" name="Review" placeholder="Vul hier uw verhaal in..." style="height:200px"></textarea>
 
-              <button type="reset" onclick="myFunction()">Submit</button>
+              <input id="knop" type="submit" value="submit" onclick="myFunction()"></input>
             </form>
           </div>
 
