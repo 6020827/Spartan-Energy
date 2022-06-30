@@ -1,3 +1,4 @@
+@media only screen and (min-width: 769px) {
 * {
   font-family: "GFS Neohellenic", sans-serif;
 }
@@ -23,6 +24,7 @@ body {
 #navbar {
   display: flex;
   column-gap: 9rem;
+  padding-top: 2rem;
 }
 
 a {
@@ -204,6 +206,16 @@ hr.hr2 {
   width: 20%;
   border: 2px solid white;
   margin-left: 5rem;
+}
+
+#menu {
+  display: none;
+  }
+
+#myNav {
+  display: none;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -410,4 +422,63 @@ hr.hr2 {
     border: 2px solid white;
     margin-left: 2rem;
   }
+
+   /*Hamburger Menu*/
+   .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    }
+    
+    .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+    color: grey;
+    text-decoration: underline;
+    }
+    
+    .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+  
+    #menu {
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    }
+
 }
