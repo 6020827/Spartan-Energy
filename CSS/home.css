@@ -159,7 +159,7 @@ a:hover {
 #t1 {
   font-size: 2rem;
 }
-x #paragraaf {
+#paragraaf {
   width: 650%;
   font-size: 1.5rem;
 }
@@ -206,16 +206,7 @@ hr.hr2 {
   margin-left: 5rem;
 }
 
-<<<<<<< Updated upstream
-label {
-  color: white;
-  font-size: 2rem;
-}
-
-@media screen and (max-height: 768px) {
-=======
-@media screen and (max-width: 600px) {
->>>>>>> Stashed changes
+@media screen and (max-width: 768px) {
   * {
     font-family: "GFS Neohellenic", sans-serif;
   }
@@ -235,11 +226,7 @@ label {
   }
 
   #logoImage {
-<<<<<<< Updated upstream
-    width: 7vw;
-=======
     width: 15%;
->>>>>>> Stashed changes
   }
 
   #navbar {
@@ -339,8 +326,8 @@ label {
   }
 
   #insta {
-    width: 3vw;
-    height: 3vw;
+    width: 5vw;
+    height: 5vw;
     flex: 1;
   }
 
@@ -351,97 +338,54 @@ label {
 
   #titel1 {
     color: white;
-<<<<<<< Updated upstream
-    font-size: 50px;
-    margin-left: 15vw;
-=======
     font-size: 30px;
     margin-left: 10vw;
->>>>>>> Stashed changes
     margin-bottom: 1vw;
-  }
-
-  #row1 {
-<<<<<<< Updated upstream
-    display: flex;
-    column-gap: 5rem;
-  }
-
-  #img1 {
-    flex: 1;
-  }
-
-  #i1 {
-    width: 10rem;
-    margin-top: 5rem;
-    margin-left: 10rem;
-=======
-    /* display: flex;
-    column-gap: 2rem; */
-  }
-
-  #img1 {
-    /* flex: 1; */
   }
 
   #i1 {
     width: 7rem;
     margin-top: 5rem;
     margin-left: 3rem;
->>>>>>> Stashed changes
+  }
+
+  #row1 {
+    display: flex;
+    column-gap: 5rem;
   }
 
   #text1 {
     flex: 1;
-    margin-top: 3rem;
+    margin-top: 1rem;
     color: white;
   }
 
   #t1 {
     font-size: 2rem;
   }
-<<<<<<< Updated upstream
-  x #paragraaf {
-    width: 650%;
-=======
 
   #paragraaf {
-    width: 190%;
->>>>>>> Stashed changes
+    width: 400%;
     font-size: 1.5rem;
   }
 
   #titel2 {
     color: rgb(255, 255, 255);
-<<<<<<< Updated upstream
-    font-size: 50px;
-    margin-bottom: 1vw;
-    margin-left: 60rem;
-=======
     font-size: 30px;
     margin-bottom: 1vw;
-    margin-left: 11rem;
->>>>>>> Stashed changes
+    margin-left: 30rem;
   }
 
   hr.hr1 {
     color: white;
-<<<<<<< Updated upstream
-    width: 80vw;
-=======
     width: 70vw;
->>>>>>> Stashed changes
     float: right;
     margin-top: 2px;
   }
 
   hr.hr2 {
     color: white;
-<<<<<<< Updated upstream
-    margin-right: 20rem;
-=======
     margin-right: 8rem;
->>>>>>> Stashed changes
     margin-top: 2px;
   }
 
@@ -453,11 +397,7 @@ label {
   #event1 {
     width: 20%;
     border: 2px solid white;
-<<<<<<< Updated upstream
-    margin-right: 5rem;
-=======
     margin-right: 2rem;
->>>>>>> Stashed changes
   }
 
   #event3 {
@@ -468,15 +408,6 @@ label {
   #event2 {
     width: 20%;
     border: 2px solid white;
-<<<<<<< Updated upstream
-    margin-left: 5rem;
-  }
-
-  label {
-    color: white;
-    font-size: 2rem;
-=======
     margin-left: 2rem;
->>>>>>> Stashed changes
   }
 }

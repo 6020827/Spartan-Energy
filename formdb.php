@@ -20,7 +20,7 @@ if(isset($_POST["submit"])){
             session_start();
             $_SESSION['ingelogd'] = true;
             $_SESSION["username"] = $_POST["username"];
-            header("Location: home.php");
+            header("Location/.../home.php");
         } else {
             $error = "Username & password niet goed";
             }
@@ -45,7 +45,7 @@ if(isset($_POST["submit"])){
         <meta name="keywords" content="">
         <meta name="author" content="Tim van Duijvenvoorde, Bjorn Borst, Dylan Hillebrand, Chloë Woldberg">
         <title>Spartan</title>
-        <link rel="stylesheet" type="text/css" href="CSS/home.css">
+        <link rel="stylesheet" type="text/css" href="CSS/formdb.css">
         <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     </head>
     <body>
@@ -77,7 +77,7 @@ if(isset($_POST["submit"])){
         </article>
         <h1>Inloggen</h1>
         <form method="POST">
-            <label>Gebruikersnaam:</label>
+            <label id="label">Gebruikersnaam:</label>
             <br><input type="text" name="username">
             <br>
             <label>Wachtwoord:</label>
